@@ -38,13 +38,7 @@ public class FlashcardStatistics {
         return incorrectAnswers;
     }
 
-    public void incrementMCCorrectAnswers() {
-        mcCorrectAnswers++;
-    }
 
-    public void incrementMCIncorrectAnswers() {
-        mcIncorrectAnswers++;
-    }
 
 
 

@@ -64,6 +64,7 @@ public class FlashcardApp {
 
     private static void displayFlashcards() {
         System.out.println("\nAlle Karteikarten im Deck:");
+        //System.out.println(deck.getCards());
         for (Flashcard card : deck.getCards()) {
             System.out.println(card);
         }
@@ -117,14 +118,14 @@ public class FlashcardApp {
 
 
 
-    private static boolean containsMultipleChoiceFlashcards(List<Flashcard> cards) {
+    /*private static boolean containsMultipleChoiceFlashcards(List<Flashcard> cards) {
         for (Flashcard card : cards) {
             if (card instanceof MultipleChoiceFlashcard) {
                 return true;
             }
         }
         return false;
-    }
+    }*/
 
     private static void displayStatistics() {
         if(flashcardLearning != null){

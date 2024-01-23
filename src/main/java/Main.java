@@ -23,8 +23,5 @@ public class Main {
                 List<FlashcardCategory> allCategories = deck.getAllCategories();
                 System.out.println("Alle Kategorien im Deck: " + allCategories);
 
-                // Anzeigen von Karteikarten in einer bestimmten Kategorie
-                List<Flashcard> geographyCards = deck.getCardsInCategory(geographyCategory);
-                System.out.println("Karteikarten in der Kategorie 'Geografie': " + geographyCards);
         }
 }
